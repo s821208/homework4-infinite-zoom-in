@@ -181,7 +181,7 @@ SURF:
 - 在我們選用的照片上除了光線變化SURF比對較優秀，其他在不考慮時間的情況下選用SIFT都比較好
 - 照片的特徵點不管選用何種方法右側的特徵點比對到的數量都非常少，黑板預期會是很好的特徵點分布位置，結果事實並非如此，這可能導致使用程式進行align遇到問題
 ## Perform image alignment and generate infinite zooming effect
-{%youtube sDeTAt3p93k %}
+[![Watch the video](https://img.youtube.com/vi/sDeTAt3p93k/maxresdefault.jpg)](https://youtu.be/sDeTAt3p93k)
 圖片大致上依照以下方式進行
 - 首先會先抽取每張照片的sift descriptor。 
 - 接著會比較兩張照片的descriptor找出matching point。比較方式為，計算第一張照片的所有discriptor與第二張照片所有的discriptor的距離。如果第一近的兩點距離比第二近的兩點距離乘上0.7倍還小，那就是為matching point。
@@ -228,7 +228,8 @@ SURF:
 ## Exploit creativity to add some image processing to enhance effect
 
 該部分基於上方影片，加上blur的效果，使觀看者會有更像看到infinite zoom in。其中以下影片並未新增任何新的素材，其全部重複使用上方素材加上模糊效果。
-{%youtube --AQbj-amc0 %}
+
+[![Watch the video](https://img.youtube.com/vi/--AQbj-amc0/maxresdefault.jpg)](https://youtu.be/--AQbj-amc0)
 
 ## Video editor
 我們在NTHU校園取景，利用影片尺寸縮放與透明度方法，創造出前進場景效果，影片中的足球也產生3D視覺效果。
