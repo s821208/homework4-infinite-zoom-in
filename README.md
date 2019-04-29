@@ -151,23 +151,29 @@ SURF:
 
 ### Analyze
 #### 性能
-排名以最少錯誤比對線為較優，如果錯誤比對線數量相似則以特徵點分布均勻判斷為較優秀，之所以如此排名是因為目標找到最適合製作本次作業要求 infinity zoom in 的detector。
+排名以最少錯誤比對線為較優，如果錯誤比對線數量相似則以特徵點分布均勻判斷為較優秀，之所以如此排名是因為目標找到最適合製作本次作業要求 infinity zoom in 的detector。  
+
 |method|translation|blur|illumination|scale|rotation|afine|
 |---|---|---|---|---|---|---|
 |ORB |2nd|3rd|3rd|3rd|3rd|2nd|
 |SIFT|1st|1st|2nd|1st|1st|1st|
 |SURF|1st|2nd|1st|2nd|2nd|3rd|
+
 #### 時間
 樣本較少，所以僅提供大致時間尺度。
+
 |ORB|SIFT|SURF|
 |--|--|--|
 |100ms|500ms|1000ms|
 
+
 #### 特徵點數量
 以連續照片偵測到的特徵點進行平均
+
 |ORB|SIFT|SURF|
 |--|--|--|
 |500|33134|52969|
+
 每張照片ORB只有500個特徵點，推測是已經進行過收斂。
 ### Discussion
 - 單存從特徵點的數量上SURF>SIFT>ORB
