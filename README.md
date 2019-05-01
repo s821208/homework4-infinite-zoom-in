@@ -63,8 +63,7 @@ Keyword: ORB, SIFT, SURF
 
 
 ## Take a sequence of moving-forward images in NTHU campus.
-https://i.imgur.com/PiSkGwu.gif
-
+![](https://i.imgur.com/1yjPcO1.gif)
     
 ## Show feature extraction and matching results between two images
 ### result
